@@ -11,9 +11,17 @@ credentials/
 private/
 .codex/
 .aws/
+.ssh/
+.netrc
+_netrc
+.npmrc
+.pypirc
 config.local.*
 auth.json
 token.json
+credentials.json
+client_secret*.json
+service-account*.json
 
 # Source media, recordings, renders and archives
 raw/
@@ -28,6 +36,13 @@ tmp/
 *.mkv
 *.avi
 *.webm
+*.m4v
+*.mxf
+*.mts
+*.m2ts
+*.wmv
+*.mpeg
+*.mpg
 *.wav
 *.mp3
 *.m4a
