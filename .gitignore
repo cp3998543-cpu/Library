@@ -1,0 +1,53 @@
+# Secrets and machine configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+credentials/
+private/
+.codex/
+.aws/
+config.local.*
+auth.json
+token.json
+
+# Source media, recordings, renders and archives
+raw/
+recordings/
+outputs/
+exports/
+renders/
+cache/
+tmp/
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.zip
+*.7z
+
+# Dependencies and generated files
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+dist/
+build/
+*.log
+
+# Desktop metadata
+.DS_Store
+Thumbs.db
+desktop.ini
